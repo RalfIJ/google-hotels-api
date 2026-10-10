@@ -82,6 +82,10 @@ The weekend of 23 October costs more than twice as much as the cheapest one. Tha
 - **SerpApi** has a Google Hotels endpoint, with a monthly subscription.
 - **Booking sites' own APIs** are usually only for partners and affiliates, and only cover their own prices.
 
+## Use it from AI assistants (MCP)
+
+To let Claude, Cursor, VS Code or another MCP client look up hotel prices for you, add this MCP server URL: `https://mcp.apify.com/?tools=ralfij/google-hotels-scraper`. Sign in to Apify when the client asks, or send your Apify API token as `Authorization: Bearer <token>`. Runs are billed to your own Apify account.
+
 ## Notes
 
 - I built the Google Hotels Scraper used in these examples, so keep that in mind.
