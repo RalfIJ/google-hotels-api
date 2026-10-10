@@ -1,0 +1,2 @@
+apify-client>=3.0
+matplotlib>=3.7  # only for examples/compare_cities.py
